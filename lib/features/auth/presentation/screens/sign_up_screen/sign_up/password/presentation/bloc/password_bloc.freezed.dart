@@ -1,0 +1,996 @@
+// coverage:ignore-file
+// GENERATED CODE - DO NOT MODIFY BY HAND
+// ignore_for_file: type=lint
+// ignore_for_file: unused_element, deprecated_member_use, deprecated_member_use_from_same_package, use_function_type_syntax_for_parameters, unnecessary_const, avoid_init_to_null, invalid_override_different_default_values_named, prefer_expression_function_bodies, annotate_overrides, invalid_annotation_target, unnecessary_question_mark
+
+part of 'password_bloc.dart';
+
+// **************************************************************************
+// FreezedGenerator
+// **************************************************************************
+
+T _$identity<T>(T value) => value;
+
+final _privateConstructorUsedError = UnsupportedError(
+    'It seems like you constructed your class using `MyClass._()`. This constructor is only meant to be used by freezed and you are not supposed to need it nor use it.\nPlease check the documentation here for more information: https://github.com/rrousselGit/freezed#custom-getters-and-methods');
+
+/// @nodoc
+mixin _$PasswordEvent {
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() enableSubmit,
+    required TResult Function() disableSubmit,
+    required TResult Function(String password) submit,
+  }) =>
+      throw _privateConstructorUsedError;
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? enableSubmit,
+    TResult? Function()? disableSubmit,
+    TResult? Function(String password)? submit,
+  }) =>
+      throw _privateConstructorUsedError;
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? enableSubmit,
+    TResult Function()? disableSubmit,
+    TResult Function(String password)? submit,
+    required TResult orElse(),
+  }) =>
+      throw _privateConstructorUsedError;
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_EnableSubmit value) enableSubmit,
+    required TResult Function(_DisableSubmit value) disableSubmit,
+    required TResult Function(_Submit value) submit,
+  }) =>
+      throw _privateConstructorUsedError;
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(_EnableSubmit value)? enableSubmit,
+    TResult? Function(_DisableSubmit value)? disableSubmit,
+    TResult? Function(_Submit value)? submit,
+  }) =>
+      throw _privateConstructorUsedError;
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_EnableSubmit value)? enableSubmit,
+    TResult Function(_DisableSubmit value)? disableSubmit,
+    TResult Function(_Submit value)? submit,
+    required TResult orElse(),
+  }) =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $PasswordEventCopyWith<$Res> {
+  factory $PasswordEventCopyWith(
+          PasswordEvent value, $Res Function(PasswordEvent) then) =
+      _$PasswordEventCopyWithImpl<$Res, PasswordEvent>;
+}
+
+/// @nodoc
+class _$PasswordEventCopyWithImpl<$Res, $Val extends PasswordEvent>
+    implements $PasswordEventCopyWith<$Res> {
+  _$PasswordEventCopyWithImpl(this._value, this._then);
+
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
+}
+
+/// @nodoc
+abstract class _$$_EnableSubmitCopyWith<$Res> {
+  factory _$$_EnableSubmitCopyWith(
+          _$_EnableSubmit value, $Res Function(_$_EnableSubmit) then) =
+      __$$_EnableSubmitCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$$_EnableSubmitCopyWithImpl<$Res>
+    extends _$PasswordEventCopyWithImpl<$Res, _$_EnableSubmit>
+    implements _$$_EnableSubmitCopyWith<$Res> {
+  __$$_EnableSubmitCopyWithImpl(
+      _$_EnableSubmit _value, $Res Function(_$_EnableSubmit) _then)
+      : super(_value, _then);
+}
+
+/// @nodoc
+
+class _$_EnableSubmit implements _EnableSubmit {
+  const _$_EnableSubmit();
+
+  @override
+  String toString() {
+    return 'PasswordEvent.enableSubmit()';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType && other is _$_EnableSubmit);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() enableSubmit,
+    required TResult Function() disableSubmit,
+    required TResult Function(String password) submit,
+  }) {
+    return enableSubmit();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? enableSubmit,
+    TResult? Function()? disableSubmit,
+    TResult? Function(String password)? submit,
+  }) {
+    return enableSubmit?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? enableSubmit,
+    TResult Function()? disableSubmit,
+    TResult Function(String password)? submit,
+    required TResult orElse(),
+  }) {
+    if (enableSubmit != null) {
+      return enableSubmit();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_EnableSubmit value) enableSubmit,
+    required TResult Function(_DisableSubmit value) disableSubmit,
+    required TResult Function(_Submit value) submit,
+  }) {
+    return enableSubmit(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(_EnableSubmit value)? enableSubmit,
+    TResult? Function(_DisableSubmit value)? disableSubmit,
+    TResult? Function(_Submit value)? submit,
+  }) {
+    return enableSubmit?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_EnableSubmit value)? enableSubmit,
+    TResult Function(_DisableSubmit value)? disableSubmit,
+    TResult Function(_Submit value)? submit,
+    required TResult orElse(),
+  }) {
+    if (enableSubmit != null) {
+      return enableSubmit(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class _EnableSubmit implements PasswordEvent {
+  const factory _EnableSubmit() = _$_EnableSubmit;
+}
+
+/// @nodoc
+abstract class _$$_DisableSubmitCopyWith<$Res> {
+  factory _$$_DisableSubmitCopyWith(
+          _$_DisableSubmit value, $Res Function(_$_DisableSubmit) then) =
+      __$$_DisableSubmitCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$$_DisableSubmitCopyWithImpl<$Res>
+    extends _$PasswordEventCopyWithImpl<$Res, _$_DisableSubmit>
+    implements _$$_DisableSubmitCopyWith<$Res> {
+  __$$_DisableSubmitCopyWithImpl(
+      _$_DisableSubmit _value, $Res Function(_$_DisableSubmit) _then)
+      : super(_value, _then);
+}
+
+/// @nodoc
+
+class _$_DisableSubmit implements _DisableSubmit {
+  const _$_DisableSubmit();
+
+  @override
+  String toString() {
+    return 'PasswordEvent.disableSubmit()';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType && other is _$_DisableSubmit);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() enableSubmit,
+    required TResult Function() disableSubmit,
+    required TResult Function(String password) submit,
+  }) {
+    return disableSubmit();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? enableSubmit,
+    TResult? Function()? disableSubmit,
+    TResult? Function(String password)? submit,
+  }) {
+    return disableSubmit?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? enableSubmit,
+    TResult Function()? disableSubmit,
+    TResult Function(String password)? submit,
+    required TResult orElse(),
+  }) {
+    if (disableSubmit != null) {
+      return disableSubmit();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_EnableSubmit value) enableSubmit,
+    required TResult Function(_DisableSubmit value) disableSubmit,
+    required TResult Function(_Submit value) submit,
+  }) {
+    return disableSubmit(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(_EnableSubmit value)? enableSubmit,
+    TResult? Function(_DisableSubmit value)? disableSubmit,
+    TResult? Function(_Submit value)? submit,
+  }) {
+    return disableSubmit?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_EnableSubmit value)? enableSubmit,
+    TResult Function(_DisableSubmit value)? disableSubmit,
+    TResult Function(_Submit value)? submit,
+    required TResult orElse(),
+  }) {
+    if (disableSubmit != null) {
+      return disableSubmit(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class _DisableSubmit implements PasswordEvent {
+  const factory _DisableSubmit() = _$_DisableSubmit;
+}
+
+/// @nodoc
+abstract class _$$_SubmitCopyWith<$Res> {
+  factory _$$_SubmitCopyWith(_$_Submit value, $Res Function(_$_Submit) then) =
+      __$$_SubmitCopyWithImpl<$Res>;
+  @useResult
+  $Res call({String password});
+}
+
+/// @nodoc
+class __$$_SubmitCopyWithImpl<$Res>
+    extends _$PasswordEventCopyWithImpl<$Res, _$_Submit>
+    implements _$$_SubmitCopyWith<$Res> {
+  __$$_SubmitCopyWithImpl(_$_Submit _value, $Res Function(_$_Submit) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? password = null,
+  }) {
+    return _then(_$_Submit(
+      null == password
+          ? _value.password
+          : password // ignore: cast_nullable_to_non_nullable
+              as String,
+    ));
+  }
+}
+
+/// @nodoc
+
+class _$_Submit implements _Submit {
+  const _$_Submit(this.password);
+
+  @override
+  final String password;
+
+  @override
+  String toString() {
+    return 'PasswordEvent.submit(password: $password)';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _$_Submit &&
+            (identical(other.password, password) ||
+                other.password == password));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, password);
+
+  @JsonKey(ignore: true)
+  @override
+  @pragma('vm:prefer-inline')
+  _$$_SubmitCopyWith<_$_Submit> get copyWith =>
+      __$$_SubmitCopyWithImpl<_$_Submit>(this, _$identity);
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() enableSubmit,
+    required TResult Function() disableSubmit,
+    required TResult Function(String password) submit,
+  }) {
+    return submit(password);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? enableSubmit,
+    TResult? Function()? disableSubmit,
+    TResult? Function(String password)? submit,
+  }) {
+    return submit?.call(password);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? enableSubmit,
+    TResult Function()? disableSubmit,
+    TResult Function(String password)? submit,
+    required TResult orElse(),
+  }) {
+    if (submit != null) {
+      return submit(password);
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_EnableSubmit value) enableSubmit,
+    required TResult Function(_DisableSubmit value) disableSubmit,
+    required TResult Function(_Submit value) submit,
+  }) {
+    return submit(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(_EnableSubmit value)? enableSubmit,
+    TResult? Function(_DisableSubmit value)? disableSubmit,
+    TResult? Function(_Submit value)? submit,
+  }) {
+    return submit?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_EnableSubmit value)? enableSubmit,
+    TResult Function(_DisableSubmit value)? disableSubmit,
+    TResult Function(_Submit value)? submit,
+    required TResult orElse(),
+  }) {
+    if (submit != null) {
+      return submit(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class _Submit implements PasswordEvent {
+  const factory _Submit(final String password) = _$_Submit;
+
+  String get password;
+  @JsonKey(ignore: true)
+  _$$_SubmitCopyWith<_$_Submit> get copyWith =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+mixin _$PasswordState {
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() initial,
+    required TResult Function() enabledSubmit,
+    required TResult Function() disabledSubmit,
+    required TResult Function(String password) validationSuccess,
+  }) =>
+      throw _privateConstructorUsedError;
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? initial,
+    TResult? Function()? enabledSubmit,
+    TResult? Function()? disabledSubmit,
+    TResult? Function(String password)? validationSuccess,
+  }) =>
+      throw _privateConstructorUsedError;
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? initial,
+    TResult Function()? enabledSubmit,
+    TResult Function()? disabledSubmit,
+    TResult Function(String password)? validationSuccess,
+    required TResult orElse(),
+  }) =>
+      throw _privateConstructorUsedError;
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_Initial value) initial,
+    required TResult Function(_EnabledSubmit value) enabledSubmit,
+    required TResult Function(_DisabledSubmit value) disabledSubmit,
+    required TResult Function(_ValidationSuccess value) validationSuccess,
+  }) =>
+      throw _privateConstructorUsedError;
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(_Initial value)? initial,
+    TResult? Function(_EnabledSubmit value)? enabledSubmit,
+    TResult? Function(_DisabledSubmit value)? disabledSubmit,
+    TResult? Function(_ValidationSuccess value)? validationSuccess,
+  }) =>
+      throw _privateConstructorUsedError;
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_Initial value)? initial,
+    TResult Function(_EnabledSubmit value)? enabledSubmit,
+    TResult Function(_DisabledSubmit value)? disabledSubmit,
+    TResult Function(_ValidationSuccess value)? validationSuccess,
+    required TResult orElse(),
+  }) =>
+      throw _privateConstructorUsedError;
+}
+
+/// @nodoc
+abstract class $PasswordStateCopyWith<$Res> {
+  factory $PasswordStateCopyWith(
+          PasswordState value, $Res Function(PasswordState) then) =
+      _$PasswordStateCopyWithImpl<$Res, PasswordState>;
+}
+
+/// @nodoc
+class _$PasswordStateCopyWithImpl<$Res, $Val extends PasswordState>
+    implements $PasswordStateCopyWith<$Res> {
+  _$PasswordStateCopyWithImpl(this._value, this._then);
+
+  // ignore: unused_field
+  final $Val _value;
+  // ignore: unused_field
+  final $Res Function($Val) _then;
+}
+
+/// @nodoc
+abstract class _$$_InitialCopyWith<$Res> {
+  factory _$$_InitialCopyWith(
+          _$_Initial value, $Res Function(_$_Initial) then) =
+      __$$_InitialCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$$_InitialCopyWithImpl<$Res>
+    extends _$PasswordStateCopyWithImpl<$Res, _$_Initial>
+    implements _$$_InitialCopyWith<$Res> {
+  __$$_InitialCopyWithImpl(_$_Initial _value, $Res Function(_$_Initial) _then)
+      : super(_value, _then);
+}
+
+/// @nodoc
+
+class _$_Initial implements _Initial {
+  const _$_Initial();
+
+  @override
+  String toString() {
+    return 'PasswordState.initial()';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType && other is _$_Initial);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() initial,
+    required TResult Function() enabledSubmit,
+    required TResult Function() disabledSubmit,
+    required TResult Function(String password) validationSuccess,
+  }) {
+    return initial();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? initial,
+    TResult? Function()? enabledSubmit,
+    TResult? Function()? disabledSubmit,
+    TResult? Function(String password)? validationSuccess,
+  }) {
+    return initial?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? initial,
+    TResult Function()? enabledSubmit,
+    TResult Function()? disabledSubmit,
+    TResult Function(String password)? validationSuccess,
+    required TResult orElse(),
+  }) {
+    if (initial != null) {
+      return initial();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_Initial value) initial,
+    required TResult Function(_EnabledSubmit value) enabledSubmit,
+    required TResult Function(_DisabledSubmit value) disabledSubmit,
+    required TResult Function(_ValidationSuccess value) validationSuccess,
+  }) {
+    return initial(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(_Initial value)? initial,
+    TResult? Function(_EnabledSubmit value)? enabledSubmit,
+    TResult? Function(_DisabledSubmit value)? disabledSubmit,
+    TResult? Function(_ValidationSuccess value)? validationSuccess,
+  }) {
+    return initial?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_Initial value)? initial,
+    TResult Function(_EnabledSubmit value)? enabledSubmit,
+    TResult Function(_DisabledSubmit value)? disabledSubmit,
+    TResult Function(_ValidationSuccess value)? validationSuccess,
+    required TResult orElse(),
+  }) {
+    if (initial != null) {
+      return initial(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class _Initial implements PasswordState {
+  const factory _Initial() = _$_Initial;
+}
+
+/// @nodoc
+abstract class _$$_EnabledSubmitCopyWith<$Res> {
+  factory _$$_EnabledSubmitCopyWith(
+          _$_EnabledSubmit value, $Res Function(_$_EnabledSubmit) then) =
+      __$$_EnabledSubmitCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$$_EnabledSubmitCopyWithImpl<$Res>
+    extends _$PasswordStateCopyWithImpl<$Res, _$_EnabledSubmit>
+    implements _$$_EnabledSubmitCopyWith<$Res> {
+  __$$_EnabledSubmitCopyWithImpl(
+      _$_EnabledSubmit _value, $Res Function(_$_EnabledSubmit) _then)
+      : super(_value, _then);
+}
+
+/// @nodoc
+
+class _$_EnabledSubmit implements _EnabledSubmit {
+  const _$_EnabledSubmit();
+
+  @override
+  String toString() {
+    return 'PasswordState.enabledSubmit()';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType && other is _$_EnabledSubmit);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() initial,
+    required TResult Function() enabledSubmit,
+    required TResult Function() disabledSubmit,
+    required TResult Function(String password) validationSuccess,
+  }) {
+    return enabledSubmit();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? initial,
+    TResult? Function()? enabledSubmit,
+    TResult? Function()? disabledSubmit,
+    TResult? Function(String password)? validationSuccess,
+  }) {
+    return enabledSubmit?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? initial,
+    TResult Function()? enabledSubmit,
+    TResult Function()? disabledSubmit,
+    TResult Function(String password)? validationSuccess,
+    required TResult orElse(),
+  }) {
+    if (enabledSubmit != null) {
+      return enabledSubmit();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_Initial value) initial,
+    required TResult Function(_EnabledSubmit value) enabledSubmit,
+    required TResult Function(_DisabledSubmit value) disabledSubmit,
+    required TResult Function(_ValidationSuccess value) validationSuccess,
+  }) {
+    return enabledSubmit(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(_Initial value)? initial,
+    TResult? Function(_EnabledSubmit value)? enabledSubmit,
+    TResult? Function(_DisabledSubmit value)? disabledSubmit,
+    TResult? Function(_ValidationSuccess value)? validationSuccess,
+  }) {
+    return enabledSubmit?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_Initial value)? initial,
+    TResult Function(_EnabledSubmit value)? enabledSubmit,
+    TResult Function(_DisabledSubmit value)? disabledSubmit,
+    TResult Function(_ValidationSuccess value)? validationSuccess,
+    required TResult orElse(),
+  }) {
+    if (enabledSubmit != null) {
+      return enabledSubmit(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class _EnabledSubmit implements PasswordState {
+  const factory _EnabledSubmit() = _$_EnabledSubmit;
+}
+
+/// @nodoc
+abstract class _$$_DisabledSubmitCopyWith<$Res> {
+  factory _$$_DisabledSubmitCopyWith(
+          _$_DisabledSubmit value, $Res Function(_$_DisabledSubmit) then) =
+      __$$_DisabledSubmitCopyWithImpl<$Res>;
+}
+
+/// @nodoc
+class __$$_DisabledSubmitCopyWithImpl<$Res>
+    extends _$PasswordStateCopyWithImpl<$Res, _$_DisabledSubmit>
+    implements _$$_DisabledSubmitCopyWith<$Res> {
+  __$$_DisabledSubmitCopyWithImpl(
+      _$_DisabledSubmit _value, $Res Function(_$_DisabledSubmit) _then)
+      : super(_value, _then);
+}
+
+/// @nodoc
+
+class _$_DisabledSubmit implements _DisabledSubmit {
+  const _$_DisabledSubmit();
+
+  @override
+  String toString() {
+    return 'PasswordState.disabledSubmit()';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType && other is _$_DisabledSubmit);
+  }
+
+  @override
+  int get hashCode => runtimeType.hashCode;
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() initial,
+    required TResult Function() enabledSubmit,
+    required TResult Function() disabledSubmit,
+    required TResult Function(String password) validationSuccess,
+  }) {
+    return disabledSubmit();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? initial,
+    TResult? Function()? enabledSubmit,
+    TResult? Function()? disabledSubmit,
+    TResult? Function(String password)? validationSuccess,
+  }) {
+    return disabledSubmit?.call();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? initial,
+    TResult Function()? enabledSubmit,
+    TResult Function()? disabledSubmit,
+    TResult Function(String password)? validationSuccess,
+    required TResult orElse(),
+  }) {
+    if (disabledSubmit != null) {
+      return disabledSubmit();
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_Initial value) initial,
+    required TResult Function(_EnabledSubmit value) enabledSubmit,
+    required TResult Function(_DisabledSubmit value) disabledSubmit,
+    required TResult Function(_ValidationSuccess value) validationSuccess,
+  }) {
+    return disabledSubmit(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(_Initial value)? initial,
+    TResult? Function(_EnabledSubmit value)? enabledSubmit,
+    TResult? Function(_DisabledSubmit value)? disabledSubmit,
+    TResult? Function(_ValidationSuccess value)? validationSuccess,
+  }) {
+    return disabledSubmit?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_Initial value)? initial,
+    TResult Function(_EnabledSubmit value)? enabledSubmit,
+    TResult Function(_DisabledSubmit value)? disabledSubmit,
+    TResult Function(_ValidationSuccess value)? validationSuccess,
+    required TResult orElse(),
+  }) {
+    if (disabledSubmit != null) {
+      return disabledSubmit(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class _DisabledSubmit implements PasswordState {
+  const factory _DisabledSubmit() = _$_DisabledSubmit;
+}
+
+/// @nodoc
+abstract class _$$_ValidationSuccessCopyWith<$Res> {
+  factory _$$_ValidationSuccessCopyWith(_$_ValidationSuccess value,
+          $Res Function(_$_ValidationSuccess) then) =
+      __$$_ValidationSuccessCopyWithImpl<$Res>;
+  @useResult
+  $Res call({String password});
+}
+
+/// @nodoc
+class __$$_ValidationSuccessCopyWithImpl<$Res>
+    extends _$PasswordStateCopyWithImpl<$Res, _$_ValidationSuccess>
+    implements _$$_ValidationSuccessCopyWith<$Res> {
+  __$$_ValidationSuccessCopyWithImpl(
+      _$_ValidationSuccess _value, $Res Function(_$_ValidationSuccess) _then)
+      : super(_value, _then);
+
+  @pragma('vm:prefer-inline')
+  @override
+  $Res call({
+    Object? password = null,
+  }) {
+    return _then(_$_ValidationSuccess(
+      null == password
+          ? _value.password
+          : password // ignore: cast_nullable_to_non_nullable
+              as String,
+    ));
+  }
+}
+
+/// @nodoc
+
+class _$_ValidationSuccess implements _ValidationSuccess {
+  const _$_ValidationSuccess(this.password);
+
+  @override
+  final String password;
+
+  @override
+  String toString() {
+    return 'PasswordState.validationSuccess(password: $password)';
+  }
+
+  @override
+  bool operator ==(dynamic other) {
+    return identical(this, other) ||
+        (other.runtimeType == runtimeType &&
+            other is _$_ValidationSuccess &&
+            (identical(other.password, password) ||
+                other.password == password));
+  }
+
+  @override
+  int get hashCode => Object.hash(runtimeType, password);
+
+  @JsonKey(ignore: true)
+  @override
+  @pragma('vm:prefer-inline')
+  _$$_ValidationSuccessCopyWith<_$_ValidationSuccess> get copyWith =>
+      __$$_ValidationSuccessCopyWithImpl<_$_ValidationSuccess>(
+          this, _$identity);
+
+  @override
+  @optionalTypeArgs
+  TResult when<TResult extends Object?>({
+    required TResult Function() initial,
+    required TResult Function() enabledSubmit,
+    required TResult Function() disabledSubmit,
+    required TResult Function(String password) validationSuccess,
+  }) {
+    return validationSuccess(password);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? whenOrNull<TResult extends Object?>({
+    TResult? Function()? initial,
+    TResult? Function()? enabledSubmit,
+    TResult? Function()? disabledSubmit,
+    TResult? Function(String password)? validationSuccess,
+  }) {
+    return validationSuccess?.call(password);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeWhen<TResult extends Object?>({
+    TResult Function()? initial,
+    TResult Function()? enabledSubmit,
+    TResult Function()? disabledSubmit,
+    TResult Function(String password)? validationSuccess,
+    required TResult orElse(),
+  }) {
+    if (validationSuccess != null) {
+      return validationSuccess(password);
+    }
+    return orElse();
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult map<TResult extends Object?>({
+    required TResult Function(_Initial value) initial,
+    required TResult Function(_EnabledSubmit value) enabledSubmit,
+    required TResult Function(_DisabledSubmit value) disabledSubmit,
+    required TResult Function(_ValidationSuccess value) validationSuccess,
+  }) {
+    return validationSuccess(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult? mapOrNull<TResult extends Object?>({
+    TResult? Function(_Initial value)? initial,
+    TResult? Function(_EnabledSubmit value)? enabledSubmit,
+    TResult? Function(_DisabledSubmit value)? disabledSubmit,
+    TResult? Function(_ValidationSuccess value)? validationSuccess,
+  }) {
+    return validationSuccess?.call(this);
+  }
+
+  @override
+  @optionalTypeArgs
+  TResult maybeMap<TResult extends Object?>({
+    TResult Function(_Initial value)? initial,
+    TResult Function(_EnabledSubmit value)? enabledSubmit,
+    TResult Function(_DisabledSubmit value)? disabledSubmit,
+    TResult Function(_ValidationSuccess value)? validationSuccess,
+    required TResult orElse(),
+  }) {
+    if (validationSuccess != null) {
+      return validationSuccess(this);
+    }
+    return orElse();
+  }
+}
+
+abstract class _ValidationSuccess implements PasswordState {
+  const factory _ValidationSuccess(final String password) =
+      _$_ValidationSuccess;
+
+  String get password;
+  @JsonKey(ignore: true)
+  _$$_ValidationSuccessCopyWith<_$_ValidationSuccess> get copyWith =>
+      throw _privateConstructorUsedError;
+}

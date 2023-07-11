@@ -1,0 +1,11 @@
+const double gapFromAppBar = 20.0;
+const double titlePadding = 8.0;
+const double widePadding = 16.0;
+const double textInputVerticalPadding = 8.0;
+const double buttonHeight = 54.0;
+const double buttonWidth = double.infinity;
+const int maxBioLength = 120;
+const int minBioLength = 0;
+const double offsetFromEnd = 10;
+const double offsetFromBottom = 30;
+const int maxLinesBio = 5;
