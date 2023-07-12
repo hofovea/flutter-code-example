@@ -8,7 +8,7 @@ import 'package:code_example/common/ui_kit/buttons/send_button.dart';
 import 'package:code_example/common/ui_kit/buttons/unfollow_button.dart';
 import 'package:code_example/common/ui_kit/call_info/missed_call.dart';
 import 'package:code_example/common/ui_kit/call_info/outgoing_call.dart';
-import 'package:code_example/common/ui_kit/logo/interngram_logo.dart';
+import 'package:code_example/common/ui_kit/logo/app_logo.dart';
 import 'package:code_example/common/ui_kit/text_fields/comment_text_field.dart';
 import 'package:code_example/common/ui_kit/text_fields/default_text_field.dart';
 import 'package:code_example/common/ui_kit/text_fields/message_text_field.dart';

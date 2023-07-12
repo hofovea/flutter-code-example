@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:code_example/common/ui_kit/logo/interngram_logo.dart';
+import 'package:code_example/common/ui_kit/logo/app_logo.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);

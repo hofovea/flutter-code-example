@@ -15,12 +15,12 @@ import 'package:code_example/features/auth/presentation/screens/terms_and_condit
 import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/content_removal_title.dart';
 import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/handle_disputes_text.dart';
 import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/handle_disputes_title.dart';
-import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/interngram_service_bullet_list.dart';
-import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/interngram_service_title_text.dart';
+import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/app_service_bullet_list.dart';
+import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/app_service_title_text.dart';
 import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/permissions_bullet_list.dart';
 import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/permissions_text.dart';
 import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/permissions_title.dart';
-import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/provide_interngram_service.dart';
+import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/provide_app_service.dart';
 import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/responsible_bullet_list.dart';
 import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/responsible_title.dart';
 import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/revised_text.dart';
@@ -29,7 +29,7 @@ import 'package:code_example/features/auth/presentation/screens/terms_and_condit
 import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/unsolicited_material_title.dart';
 import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/updating_terms_text.dart';
 import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/updating_terms_title.dart';
-import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/welcome_interngram_text.dart';
+import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/welcome_app_text.dart';
 
 class TermsAndConditionsScreen extends StatelessWidget {
   const TermsAndConditionsScreen({Key? key}) : super(key: key);
@@ -49,13 +49,13 @@ class TermsAndConditionsScreen extends StatelessWidget {
           children: const [
             TermsAndConditionsTitle(),
             SizedBox(height: widePadding),
-            WelcomeInterngramText(),
+            WelcomeAppText(),
             SizedBox(height: titleSpacing),
-            InterngramServiceTitle(),
+            AppServiceTitle(),
             SizedBox(height: disclaimerBottomPadding),
-            ProvideInterngramService(),
+            ProvideAppService(),
             SizedBox(height: widePadding),
-            InterngramServiceBulletList(),
+            AppServiceBulletList(),
             SizedBox(height: titleSpacing),
             CommitmentsTitle(),
             SizedBox(height: disclaimerBottomPadding),

@@ -22,7 +22,7 @@ class CameraAccessDenied extends StatelessWidget {
             child: Column(
               children: [
                 Text(
-                  AppLocalizations.of(context)!.photosWithInterngram,
+                  AppLocalizations.of(context)!.photosWithApp,
                   style: Theme.of(context).textTheme.headlineLarge,
                   textAlign: TextAlign.center,
                 ),

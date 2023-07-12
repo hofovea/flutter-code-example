@@ -22,7 +22,7 @@ class UIConstants {
   static const double phoneTextFieldPrefixIconWidth = 120.0;
   static const double defaultPrefixIconWidth = 50.0;
   static const String countryCode = 'UA +380';
-  static const String logoPath = 'assets/logo/interngram.png';
+  static const String logoPath = 'assets/logo/App.png';
   static const String googleLogoPath = 'assets/logo/google_logo.png';
   static const String facebookLogoPath = 'assets/logo/facebook_logo.png';
   static const FontWeight appBarTitleFontWeight = FontWeight.bold;

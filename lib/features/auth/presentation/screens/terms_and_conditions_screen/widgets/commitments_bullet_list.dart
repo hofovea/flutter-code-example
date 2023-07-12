@@ -62,7 +62,7 @@ class CommitmentsBulletList extends StatelessWidget {
                   .copyWith(color: AppColors.hintText),
               children: [
                 TextSpan(
-                  text: AppLocalizations.of(context)!.howUseInterngram,
+                  text: AppLocalizations.of(context)!.howUseApp,
                   style: Theme.of(context)
                       .textTheme
                       .headlineMedium!

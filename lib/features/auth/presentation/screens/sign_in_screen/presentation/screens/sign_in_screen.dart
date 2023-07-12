@@ -7,7 +7,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:code_example/common/app_colors/app_colors.dart';
 import 'package:code_example/common/ui_kit/app_bars/empty_app_bar.dart';
 import 'package:code_example/common/ui_kit/buttons/i_text_button.dart';
-import 'package:code_example/common/ui_kit/logo/interngram_logo.dart';
+import 'package:code_example/common/ui_kit/logo/app_logo.dart';
 import 'package:code_example/common/ui_kit/text_fields/password_text_field.dart';
 import 'package:code_example/core/presentation/routing/app_router.gr.dart';
 import 'package:code_example/core/presentation/wrappers/connectivity_wrapper/bloc/connection_status_bloc.dart';
@@ -15,9 +15,6 @@ import 'package:code_example/core/presentation/wrappers/unauthorized_flow_wrappe
 import 'package:code_example/features/auth/presentation/screens/sign_in_screen/presentation/bloc/sign_in_bloc.dart';
 import 'package:code_example/features/auth/presentation/screens/sign_in_screen/presentation/widgets/create_account_row.dart';
 import 'package:code_example/features/auth/presentation/screens/sign_in_screen/presentation/widgets/forgot_password.dart';
-import 'package:code_example/features/auth/presentation/screens/sign_in_screen/presentation/widgets/log_in_facebook_row.dart';
-import 'package:code_example/features/auth/presentation/screens/sign_in_screen/presentation/widgets/log_in_google_row.dart';
-import 'package:code_example/features/auth/presentation/screens/sign_in_screen/presentation/widgets/or_text.dart';
 import 'package:code_example/features/auth/presentation/screens/sign_up_screen/style_constants.dart';
 
 class SignInScreen extends StatelessWidget {

@@ -5,8 +5,8 @@ import 'package:code_example/common/app_colors/app_colors.dart';
 import 'package:code_example/features/auth/presentation/screens/sign_up_screen/style_constants.dart';
 import 'package:code_example/features/auth/presentation/screens/terms_and_conditions_screen/widgets/bullet_list_item.dart';
 
-class InterngramServiceBulletList extends StatelessWidget {
-  const InterngramServiceBulletList({Key? key}) : super(key: key);
+class AppServiceBulletList extends StatelessWidget {
+  const AppServiceBulletList({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
