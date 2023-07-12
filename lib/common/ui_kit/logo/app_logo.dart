@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:code_example/common/ui_kit/ui_constants.dart';
-
 class Logo extends StatelessWidget {
   final double? height;
   final double? width;
